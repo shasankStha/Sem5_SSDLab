@@ -1,19 +1,22 @@
+/**
+ * Lab 3 Assingment
+ */
 package lab3;
 
 import java.util.Arrays;
 
 /**
  * 
+ * Contains a number of method to get the different values from an array.
  * @author ${Shasank Shrestha}
- *
  */
 public class Stats {
-
+	
 	private int[] numbers;
 	private int count;
 
 	/**
-	 * 
+	 * To add the integer value to the array
 	 * @param value is added at the last index to the array numbers
 	 */
 	public void addValue(int value) {
@@ -22,7 +25,7 @@ public class Stats {
 	}
 
 	/**
-	 * 
+	 * To get the length of array
 	 * @return the length of array
 	 */
 	public int getCount() {
@@ -30,7 +33,7 @@ public class Stats {
 	}
 
 	/**
-	 * 
+	 * To get the maximum value from array
 	 * @return the mamimum value from the array
 	 */
 	public int getMaximumValue() {
@@ -46,7 +49,7 @@ public class Stats {
 	}
 
 	/**
-	 * 
+	 * To get the minimum value from array
 	 * @return the minimum value from the array
 	 */
 	public int getMinimumValue() {
@@ -62,7 +65,7 @@ public class Stats {
 	}
 
 	/**
-	 * 
+	 * To get the total sum of all numbers of array
 	 * @return the sum of all numbers of the array
 	 */
 	public int getTotal() {
@@ -77,7 +80,7 @@ public class Stats {
 	}
 
 	/**
-	 * 
+	 * To get the average value from array
 	 * @return the average value from the array
 	 */
 	public double getAverage() {
@@ -94,14 +97,15 @@ public class Stats {
 	
 	@Override
 	/**
-	 * {@inheritDoc}
+	 * Returns a string representation of the contents of the array
+	 * 
 	 */
 	public String toString() {
-		return Arrays.toString(numbers);
+		return Arrays.toString(numbers); 
 	}
 
 	/**
-	 * 
+	 * Determine the size of array
 	 * @param capacity sets the size of array
 	 */
 	public Stats(int capacity) {
