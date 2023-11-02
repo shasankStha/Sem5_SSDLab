@@ -86,7 +86,7 @@ public class Triangle {
 	 * @return the total length of all the sides.
 	 */
 	public int getPerimeter() {
-		return sideA + sideB + sideC;
+		return sideA + sideB + sideC; 			// One of the 2 sideB is changed to sideC
 	}
 
 	/**
@@ -95,7 +95,7 @@ public class Triangle {
 	 * @return the average length of the sides as an integer
 	 */
 	public int getAverageLength() {
-		return (sideA + sideB + sideC) / 3;
+		return (sideA + sideB + sideC) / 3; 	// Bracket added to resolve bug
 	}
 
 /////////////////////////////////////////////////////
