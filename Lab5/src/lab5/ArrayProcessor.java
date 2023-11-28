@@ -16,6 +16,7 @@ public class ArrayProcessor {
 		int count = 0;
 		while(true) {
 			try {
+			@SuppressWarnings("unused")
 			Object t = a[count];
 			count++;
 			}
