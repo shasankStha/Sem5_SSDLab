@@ -10,7 +10,7 @@ import java.util.List;
  * Class to manage names
  */
 public class NameManager {
-	List<String> names = new ArrayList<>();
+	private List<String> names = new ArrayList<>();
 	
 	/**
 	 * 
