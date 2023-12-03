@@ -40,6 +40,8 @@ public class NameManager {
 			if(i.length()>15) {
 				it.remove();
 			}
+			//Lambda expression
+			//names.forEach((name)->{System.out.println(name);});
 		}
 	}
 }
